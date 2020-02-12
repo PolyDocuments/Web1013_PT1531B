@@ -1,0 +1,16 @@
+.text-red {
+    color: red;
+}
+
+p {
+    color: rgb(255, 0, 221) !important;
+}
+
+#h2_grey {
+    color: grey;
+    text-align: center;
+}
+
+a:visited {
+    color: brown;
+}
