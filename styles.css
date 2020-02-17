@@ -2,9 +2,9 @@
     color: red;
 }
 
-p {
+/* p {
     color: rgb(255, 0, 221) !important;
-}
+} */
 
 #h2_grey {
     color: grey;
@@ -13,4 +13,80 @@ p {
 
 a:visited {
     color: brown;
+}
+
+.margin-0 {
+    margin: 0px;
+}
+.background-aqua {
+    background-color: aqua;
+}
+.header {
+    height: 80px;
+    text-align: center;
+    font-size: 40px;
+}
+.footer {
+    height: 80px;
+    background-color: tomato;
+    font-size: 40px;
+    text-align: center;
+    clear: both;
+}
+.sidebar {
+    height: 900px;
+    width: 25%;
+    background-color: violet;
+    font-size: 40px;
+    text-align: center;
+    float: left;
+}
+
+.content {
+    height: 860px;
+    width: 46%;
+    /* background-color: springgreen; */
+    /* font-size: 40px; */
+    text-align: center;
+    float: left;
+    margin-top: 10px;
+    margin-left: 2%;
+    border-width: 5px;
+    border-style: double;
+    border-color: red;
+    border-radius: 30px;
+    /* outline-style: solid;
+    outline-color: white;
+    outline-width: 10px; */
+    padding-top: 20px;
+}
+
+.sub-sidebar {
+    float: right;
+    height: 900px;
+    width: 25%;
+    background-color: burlywood;
+    font-size: 40px;
+    text-align: center;
+}
+
+.avatar {
+    margin: 10px;
+    background-image: url('https://cdn1.vectorstock.com/i/thumb-large/16/05/male-avatar-profile-picture-silhouette-light-vector-5351605.jpg');
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.profile {
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.video {
+    height: 300px;
+    width: 300px;
 }
