@@ -8,23 +8,107 @@
         <header class="background-aqua header">
             Header
         </header>
-        <aside class="sidebar">Sidebar</aside>
+        <aside class="sidebar">
+            <ol class="sidebar-menu-1" type='A'>
+                <li><a href="#">Trang chủ</a></li>
+                <li><a href="#">Dashboard</a></li>
+                <li>
+                    Danh mục
+                </li>
+            </ol>
+
+            <p class="sidebar-menu-1 margin-0">Danh mục</p>
+            <div class="sidebar-menu-1 margin-0 div-relative">
+                <ul class="inner-menu-1 margin-0 ul-absolute">
+                    <li>PC</li>
+                    <li>Laptop</li>
+                    <li>Tablet</li>
+                    <li>Phone</li>
+                </ul>
+            </div>
+<!-- 
+            <dl class="sidebar-menu-1">
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language</dd>
+              
+                <dt>Css</dt>
+                <dd>Cascading Style Sheet</dd>
+              
+                <dt>JS</dt>
+                <dd>Java script</dd>
+            </dl> -->
+        </aside>
 
         <article class="content">
-            <div class="avatar"></div>
-            <div class="profile">
-                <strong>Full Name</strong>
-                <p>Nguyen Van A</p>
+            <form action="" enctype="multipart/form-data">
+                <div class="profile">
+                    <div class="avatar"></div>
+                    <div>
+                        <input type="file" />
+                    </div>
+                    <div>
+                        <label>Full Name</label>
+                        <input
+                            type="text"
+                            placeholder="Input name here"
+                            value="Tien-NH21"
+                            name="full_name"
+                        />
+                    </div>
+    
+                    <div>
+                        <label>Phone</label>
+                        <input
+                            type="number"
+                            placeholder="Input phone here"
+                            name="phone"
+                        />
+                    </div>
+    
+                    <div>
+                        <label>Address</label>
+                        <input type="text" />
+                    </div>
 
-                <strong>Phone</strong>
-                <p>0123456789</p>
+                    <div>
+                        <label>Birthday</label>
+                        <input type="date" />
+                    </div>
 
-                <strong>Dia Chi</strong>
-                <p>Ha Noi</p>
-            </div>
+                    <div>
+                        <label>Gender</label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="1"
+                        />
+                        <label>Male</label>
+                        <input
+                            type="radio"
+                            name="gender"
+                            value="0"
+                            checked
+                            />
+                        <label>Female</label>
+                    </div>
+
+                    <div>
+                        <label>Email</label>
+                        <input type="email" required />
+                    </div>
+
+                    <div>
+                        <label>Password</label>
+                        <input type="password" required />
+                    </div>
+
+                    <input type="submit" />
+
+                </div>
+            </form>
 
             <div>
-                <iframe src="https://www.youtube.com/embed/429ry0z_LdY" name="" class="video"></iframe>
+                <!-- <iframe src="https://www.youtube.com/embed/429ry0z_LdY" name="" class="video"></iframe> -->
             </div>
         </article>
 
