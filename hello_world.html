@@ -40,7 +40,7 @@
         </aside>
 
         <article class="content">
-            <form action="" enctype="multipart/form-data">
+            <form action="" method="POST" enctype="multipart/form-data">
                 <div class="profile">
                     <div class="avatar"></div>
                     <div>
@@ -94,7 +94,7 @@
 
                     <div>
                         <label>Email</label>
-                        <input type="email" required />
+                        <input type="email" />
                     </div>
 
                     <div>
@@ -102,8 +102,66 @@
                         <input type="password" required />
                     </div>
 
+                    <div>
+                        <label>Description</label>
+                        <textarea name="" id="" cols="30" rows="5"></textarea>
+                    </div>
+
+                    <div>
+                        <label>Hidden</label>
+                        <input type="hidden" id="test"/>
+                    </div>
+
+                    <div>
+                        <label>Select Combo</label>
+                        <select name="combo" id="">
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                            <option value="4">Option 4</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label>Select List</label>
+                        <select name="list" multiple size="3">
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                            <option value="4">Option 4</option>
+                        </select>
+                    </div>
+
+                    <input type="reset" >Reset Me</input>
+                    <input type="image" src="./img.jpg">Reset Me</input>
+                    <input type="button" value="Button" />
                     <input type="submit" />
 
+                    <button>
+                        <img
+                            src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQG6z5PgBGiWgoELIQHCvWD7i8cWiJKp7FdFINPAWKhTqael5lO"
+                            style="width: 30px; height:30px;"
+                        />
+                        Button 1
+                    </button>
+
+                    <div>
+                        <fieldset>
+                            <legend>Favorite</legend>
+                            <label for="coffee">
+                                <input type="checkbox" id="coffee" name="favorite" value="1">Coffee</input>
+                            </label>
+                            <label for="tea">
+                                <input type="checkbox" id="tea" name="favorite" value="2">Tea</input>
+                            </label>
+                            <label for="coca">
+                                <input type="checkbox" id="coca" name="favorite" value="3">Coca</input>
+                            </label>
+                        </fieldset>
+                    </div>
+
+                    <div>
+                    </div>
                 </div>
             </form>
 

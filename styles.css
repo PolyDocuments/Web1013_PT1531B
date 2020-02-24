@@ -34,7 +34,7 @@
     clear: both;
 }
 .sidebar {
-    height: 900px;
+    height: 1500px;
     width: 25%;
     background-color: violet;
     font-size: 40px;
@@ -43,7 +43,7 @@
 }
 
 .content {
-    height: 860px;
+    height: 1490px;
     width: 46%;
     /* background-color: springgreen; */
     /* font-size: 40px; */
@@ -63,7 +63,7 @@
 
 .sub-sidebar {
     float: right;
-    height: 900px;
+    height: 1500px;
     width: 25%;
     background-color: burlywood;
     font-size: 40px;
