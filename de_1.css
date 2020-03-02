@@ -1,0 +1,140 @@
+.container {
+    width: 980px;
+    margin: auto;
+}
+
+.margin-0 {
+    margin: 0px;
+}
+
+.header {
+    position: relative;
+}
+
+.navbar {
+    position: absolute;
+    top: 100px;
+    width: 933px;
+    height: 22px;
+    padding: 6px 4px 7px 43px;
+    background-color: #CB7802;
+}
+
+.menu {
+    height: 14px;
+}
+
+.menu-title {
+    position: relative;
+    color: #FEFBFB;
+    font-size: 12px;
+    padding-right: 46px;
+    display: inline-block;
+    padding-left: 0px;
+}
+
+.menu-list {
+    position: absolute;
+}
+
+.menu-title > div {
+    display: none;
+}
+
+ul.menu-title:hover > div {
+    display: block;
+    /* top: 2px;
+    left: 43px; */
+    list-style: none;
+    background-color: #CB7802;
+    width: 60px;
+}
+
+ul.menu-title:hover a {
+    text-decoration: none;
+    color: #FEFBFB;
+    font-size: 12px;
+}
+
+ul.menu-title:hover li {
+    line-height: 30px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.search-box {
+    float: right;
+}
+
+.banner {
+    margin-top: 44px;
+}
+
+.clear-float {
+    clear: both;
+}
+
+.search-box > form > button {
+    background-color: #272F54;
+    color: #FEFBFB;
+    text-transform: uppercase;
+}
+
+.content-row > p {
+    color: #272F54;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.content-box {
+    width: 306px;
+    height: 360px;
+    border: solid 1px #E4E4E4;
+    float: left;
+}
+
+.content-img {
+    width: 252px;
+    height: 173px;
+    margin: 15px 31px 11px 25px;
+}
+
+.content-row {
+    margin-bottom: 13px;
+}
+
+.content-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #AD3F00;
+    margin: 0px 31px 0px 25px;
+}
+
+.content-text {
+    width: 276px;
+    height: 76px;
+    margin: 14px 0px 0px 25px;
+    font-size: 13px;
+    line-height: 20px;
+}
+
+.margin-27 {
+    margin-right: 27px;
+}
+
+.margin-10 {
+    margin-top: 10px;
+}
+
+.footer {
+    height: 50px;
+    text-align: center;
+    color: #FAFBFB;
+    line-height: 50px;
+    font-size: 12px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    background-color: #272F54;
+}

@@ -1,109 +1,195 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>De 1</title>
-        <meta charset="utf-8" />
-
-        <style>
-            .logo {
-                width: 100px;
-                height: 100px;
-            }
-
-            .header {
-                background-color: #27294c;
-            }
-
-            .no-margin {
-                margin: 0px;
-            }
-
-            .container {
-                width: 80%;
-                margin: auto;
-            }
-
-            .navbar {
-                background-color: darkorange;
-            }
-
-            .text-white {
-                color: #fff;
-            }
-
-            ul.menu-title > div > li {
-                list-style: none;
-            }
-
-            ul.menu-title > div {
-                display: none;
-            }
-
-            ul.menu-title:hover > div {
-                display: block;
-            }
-
-            .menu-title {
-                position: relative;
-            }
-
-            .menu-list {
-                position: absolute;
-                background-color: darkorange;
-                /* line-height: 20px; */
-            }
-        </style>
+        <title>De mau 1</title>
+        <link rel="stylesheet" href="./de_1.css">
     </head>
-    <body class="no-margin">
-        <!-- Your code goes here -->
-
+    <body class="margin-0">
         <div class="container">
             <!-- Header -->
             <div class="header">
-                <center>
-                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a7/FTEL_Logo.svg" class="logo" alt="logo">
-                </center>
+                <img src="./header.png" alt="">
+
+                <!-- Navbar -->
+                <div class="navbar">
+                    <div class="menu">
+                        <div class="inline">
+                            <ul class="margin-0 menu-title">Trang Chủ
+                                <div class="menu-list">
+                                    <li><a href="#">Text1</a></li>
+                                    <li><a href="#">Text2</a></li>
+                                    <li><a href="#">Text3</a></li>
+                                </div>
+                            </ul>
+
+                            <ul class="margin-0 menu-title">Tuyển sinh
+                                <div class="menu-list">
+                                    <li><a href="#">Text1</a></li>
+                                    <li><a href="#">Text2</a></li>
+                                    <li><a href="#">Text3</a></li>
+                                </div>
+                            </ul>
+
+                            <ul class="margin-0 menu-title">Chương trình đào tạo
+                                <div class="menu-list">
+                                    <li><a href="#">Text1</a></li>
+                                    <li><a href="#">Text2</a></li>
+                                    <li><a href="#">Text3</a></li>
+                                </div>
+                            </ul>
+
+                            <ul class="margin-0 menu-title">Góc sinh viên
+                                <div class="menu-list">
+                                    <li><a href="#">Text1</a></li>
+                                    <li><a href="#">Text2</a></li>
+                                    <li><a href="#">Text3</a></li>
+                                </div>
+                            </ul>
+
+                            <ul class="margin-0 menu-title">Tuyển dụng
+                                <div class="menu-list">
+                                    <li><a href="#">Text1</a></li>
+                                    <li><a href="#">Text2</a></li>
+                                    <li><a href="#">Text3</a></li>
+                                </div>
+                            </ul>
+                        </div>
+
+                        <div class="inline search-box">
+                            <form action="">
+                                <input type="text" required/>
+                                <button>Tìm Kiếm</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Navbar -->
             </div>
             <!-- End Header -->
 
-            <!-- Navbar -->
-            <nav class="navbar">
-                <div>
-                    <div>
-                        <ul class="no-margin text-white menu-title">
-                            Trang Chủ
-                            <div class="menu-list">
-                                <li>Text 1 Text 1 Text 1 Text 1 Text 1 Text 1</li>
-                                <li>Text 2</li>
-                                <li>Text 3</li>
-                            </div>
-                        </ul>
-                    </div>
-
-
-                </div>
-                <!-- <div></div> -->
-            </nav>
-            <!-- End Navbar -->
-            
             <!-- Banner -->
-            <div>
-                <img src="banner.png" alt="" style="width: 100%;">
+            <div class="banner">
+                <img src="./banner.png" alt="">
             </div>
             <!-- End Banner -->
 
-            <!-- Content -->
+            <!-- Contens -->
             <div>
-                Contents
+                <div class="content-row">
+                    <p>Tin tức học tập</p>
+                    <div class="content-row">
+                        <div class="content-box margin-27">
+                            <img
+                                src="./content-img-1.png"
+                                class="content-img"
+                            />
+                            <p class="content-title margin-0">
+                                Vinh danh 295 sinh viên FPT Polytechnic học kỳ Spring 2018
+                            </p>
+                            <p class="content-text">
+                                Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic
+                                Hà Nội đã tổ chức Lễ tôn vinh “Ong vàng Poly”, 
+                                tuyên dương 295 cá nhân và tập thể có thành 
+                                tích xuất sắc trong học tập cũng như hoạt 
+                            </p>
+                        </div>
+
+                        <div class="content-box margin-27">
+                            <img
+                                src="./content-img-2.png"
+                                class="content-img"
+                            />
+                            <p class="content-title margin-0">
+                                Vinh danh 295 sinh viên FPT Polytechnic học kỳ Spring 2018
+                            </p>
+                            <p class="content-text">
+                                Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic
+                                Hà Nội đã tổ chức Lễ tôn vinh “Ong vàng Poly”, 
+                                tuyên dương 295 cá nhân và tập thể có thành 
+                                tích xuất sắc trong học tập cũng như hoạt 
+                            </p>
+                        </div>
+
+                        <div class="content-box">
+                            <img
+                                src="./content-img-3.png"
+                                class="content-img"
+                            />
+                            <p class="content-title margin-0">
+                                Vinh danh 295 sinh viên FPT Polytechnic học kỳ Spring 2018
+                            </p>
+                            <p class="content-text">
+                                Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic
+                                Hà Nội đã tổ chức Lễ tôn vinh “Ong vàng Poly”, 
+                                tuyên dương 295 cá nhân và tập thể có thành 
+                                tích xuất sắc trong học tập cũng như hoạt 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="clear-float"></div>
+                <div class="content-row margin-10">
+                    <p>Tin tức học tập</p>
+                    <div class="content-row">
+                        <div class="content-box margin-27">
+                            <img
+                                src="./content-img-1.png"
+                                class="content-img"
+                            />
+                            <p class="content-title margin-0">
+                                Vinh danh 295 sinh viên FPT Polytechnic học kỳ Spring 2018
+                            </p>
+                            <p class="content-text">
+                                Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic
+                                Hà Nội đã tổ chức Lễ tôn vinh “Ong vàng Poly”, 
+                                tuyên dương 295 cá nhân và tập thể có thành 
+                                tích xuất sắc trong học tập cũng như hoạt 
+                            </p>
+                        </div>
+
+                        <div class="content-box margin-27">
+                            <img
+                                src="./content-img-2.png"
+                                class="content-img"
+                            />
+                            <p class="content-title margin-0">
+                                Vinh danh 295 sinh viên FPT Polytechnic học kỳ Spring 2018
+                            </p>
+                            <p class="content-text">
+                                Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic
+                                Hà Nội đã tổ chức Lễ tôn vinh “Ong vàng Poly”, 
+                                tuyên dương 295 cá nhân và tập thể có thành 
+                                tích xuất sắc trong học tập cũng như hoạt 
+                            </p>
+                        </div>
+
+                        <div class="content-box">
+                            <img
+                                src="./content-img-3.png"
+                                class="content-img"
+                            />
+                            <p class="content-title margin-0">
+                                Vinh danh 295 sinh viên FPT Polytechnic học kỳ Spring 2018
+                            </p>
+                            <p class="content-text">
+                                Tối ngày 16/06/2018, Cao đẳng FPT Polytechnic
+                                Hà Nội đã tổ chức Lễ tôn vinh “Ong vàng Poly”, 
+                                tuyên dương 295 cá nhân và tập thể có thành 
+                                tích xuất sắc trong học tập cũng như hoạt 
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <!-- End Content -->
-            
+            <!-- End Contens -->
+
+            <div class="clear-float"></div>
             <!-- Footer -->
-            <div>
-                <p>TienNH21</p>
+            <div class="footer">
+                TienNH21
             </div>
             <!-- End Footer -->
         </div>
-
     </body>
 </html>
